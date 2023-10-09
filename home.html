@@ -16,9 +16,17 @@
 
 	<content>
 		<h1>Welcome to this little website.</h1>
-		<!-- insert hello world here -->
+		<p>Hello World</p>
+		<p>We're thrilled to have you here and are excited to introduce you to a world of possibilities. Whether you'r
+			Thank you for joining us, and we look forward to sharing this exciting digital adventure with you!</p>
 
-		<img src="https://devmountain.com/wp-content/uploads/2020/10/devmountain-logo3.png">
+		<h2>Here are a few compliments just for you:</h2>
+		<ul>
+			<li>You've taken the first step towards enriching your knowledge!</li>
+			<li>Your curiosity and willingness to explore new horizons are truly commendable.</li>
+			<li>Your presence here adds a special spark to our online community.</li>
+		</ul>
+		<img src="/rd_image.png" id="logo_image">
 
 		<h2>Contact Us</h2>
 		<form id="contact">
@@ -27,7 +35,16 @@
 
 			Message:
 			<input type="textarea">
-
+			How did you here about us?
+			<input type="checkbox" id="google" name="how-heard[]" value="Google">
+			<label for="google">Google</label>
+			
+			<input type="checkbox" id="friend" name="how-heard[]" value="A friend">
+			<label for="friend">A friend</label>
+			
+			<input type="checkbox" id="other" name="how-heard[]" value="Other">
+			<label for="other">Other</label>
+			
 			<input type="submit">
 
 
