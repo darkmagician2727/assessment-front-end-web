@@ -42,6 +42,8 @@ img {
 	color: black;
 	padding: 0.5rem 1rem;
 	border-radius: 1rem;
+	width: 20%;
+	height: 5%;
 }
 
 .collapsible {
